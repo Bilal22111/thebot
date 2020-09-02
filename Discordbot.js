@@ -342,7 +342,7 @@ client.on('message', message => {
   let prefix = "v!"
   if (message.author.x5bz) return;
   if (!message.content.startsWith(prefix)) return;
- console.log(`Diamond team`);
+ console.log(``);
 
   let command = message.content.split(" ")[0];
   command = command.slice(prefix.length);
@@ -395,7 +395,7 @@ client.on('message', message => {
   let prefix = "v!"
   if (message.author.x5bz) return;
   if (!message.content.startsWith(prefix)) return;
-      console.log(`Diamond Team`);
+      console.log(``);
  
   let command = message.content.split(" ")[0];
   command = command.slice(prefix.length);
